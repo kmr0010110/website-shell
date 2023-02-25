@@ -1,0 +1,161 @@
+body {
+  text-align: center;
+}
+
+.fixed-width {
+  width: 1200px;
+  border: 1px solid black;
+  margin: 0 auto;
+  /* display: flex; */
+  /* height: 200px; */
+}
+
+/* HEADER ELEMENTS */
+header {
+  border: 1px solid blue;
+  background-image: url(../src/images/Central_Ops_Landing_PC12.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  padding: 20px;
+  /* background-position: center; */
+}
+.header-links {
+  display: flex;
+  gap: 30px;
+}
+
+.home-button {
+  border: 1px solid pink;
+  width: 160px;
+  height: 50px;
+}
+
+.logo {
+  border: 1px solid pink;
+  width: 300px;
+  height: 93.75px;
+  /* display: block; */
+}
+
+/* NAV BUTTON ELEMENTS */
+.navigation-buttons {
+  border: 1px solid blue;
+  /* max-width: 80%; */
+  display: flex;
+  justify-content: space-evenly;
+}
+/* NEED TO CHANGE WITH FLEX! */
+
+.nav-button {
+  border: 1px solid pink;
+  width: 160px;
+  height: 50px;
+}
+
+/* ABOUT ELEMENTS */
+.about {
+  border: 1px solid blue;
+}
+
+.about-overview {
+  border: 1px solid pink;
+  height: 200px;
+}
+
+.about-video {
+  border: 1px solid pink;
+  height: 450px;
+}
+
+/* .learn-text */
+
+.story {
+  display: flex;
+  border: 1px solid pink;
+}
+.story-text {
+  height: 300px;
+}
+/* .story-video */
+
+.learn-button {
+  border: 1px solid pink;
+  width: 225px;
+  height: 53px;
+}
+
+/* TV DRAMA ELEMENTS */
+.tv-drama {
+  border: 1px solid blue;
+}
+
+/* story text + video texts */
+
+.about-show-button {
+  border: 1px solid pink;
+  width: 225px;
+  height: 53px;
+}
+
+/* FLIGHT MAP ELEMENTS */
+.flight-maps {
+  border: 1px solid blue;
+}
+
+.interactive-map {
+  border: 1px solid pink;
+  height: 400px;
+}
+
+/* ABOUT NAVIGATION - DETAILS ELEMENTS */
+.about-navigations {
+  border: 1px solid blue;
+}
+/* 3 images/text/buttons here */
+
+/* STAFF STORIES ELEMENTS */
+.staff-stories {
+  border: 1px solid blue;
+}
+
+/* story text + video texts */
+
+/* WORK FOR RFDS ELEMENTS */
+.working-for-rfds {
+  border: 1px solid blue;
+  height: 150px;
+}
+
+.join-team-button {
+  border: 1px solid pink;
+  width: 225px;
+  height: 53px;
+}
+
+/* CHARITY STAMPS ELEMENTS */
+.stamps {
+  border: 1px solid blue;
+  height: 100px;
+}
+/* 3 x stamps */
+
+/* FOOTER ELEMENTS */
+footer {
+  border: 1px solid blue;
+  height: 350px;
+}
+
+/* .newsletter-sign-up */
+
+/* .newsletter-form */
+
+/* .social-media */
+
+/* .social-media-links */
+
+/* .footer-text */
+
+/* .footer-bottom-text */
+
+/* .footer-credits */
