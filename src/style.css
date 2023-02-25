@@ -70,14 +70,21 @@ header {
 
 /* .learn-text */
 
-.story {
+.story-content {
   display: flex;
-  border: 1px solid pink;
+  justify-content: space-between;
+  /* border: 1px solid pink; */
 }
 .story-text {
   height: 300px;
+  width: 50%;
+  border: 1px solid pink;
 }
-/* .story-video */
+.story-video {
+  height: 300px;
+  width: 50%;
+  border: 1px solid pink;
+}
 
 .learn-button {
   border: 1px solid pink;
