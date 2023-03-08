@@ -1,5 +1,9 @@
 body {
   text-align: center;
+  font-family: "museo-sans", "Helvetica Neue", Arial, Helvetica, Geneva,
+    sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  color: #444444;
 }
 
 .fixed-width {
@@ -10,12 +14,17 @@ body {
   /* height: 200px; */
 }
 
+a {
+  color: #444444;
+  text-decoration: none;
+}
+
 /* HEADER ELEMENTS */
 header {
   border: 1px solid blue;
-  background-image: url(../src/images/Central_Ops_Landing_PC12.jpg);
+  background-image: url(../src/images/Copy_of_The_Biggest_Waiting_Room_no_title.af49.png);
   height: 400px;
-  width: 100%;
+  /* width: 100%; */
   background-size: cover;
   padding: 20px;
   /* background-position: center; */
@@ -34,10 +43,14 @@ header {
 .logo {
   border: 1px solid pink;
   width: 300px;
-  height: 93.75px;
+  height: 95px;
   display: block;
-  /* margin: 0 auto; */
-  /* margin-left: 275px; */
+  margin: 0 auto;
+}
+
+.logo-image {
+  height: 95px;
+  display: block;
 }
 
 /* NAV BUTTON ELEMENTS */
@@ -62,7 +75,16 @@ header {
 
 .about-overview {
   border: 1px solid pink;
-  height: 200px;
+  /* height: 200px; */
+}
+
+.about-overview h2 {
+  font-size: 40px;
+}
+
+.about-overview p {
+  font-size: 25px;
+  line-height: 1.5;
 }
 
 .about-video {
@@ -75,15 +97,23 @@ header {
 .story-content {
   display: flex;
   justify-content: space-between;
+  height: 500px;
   /* border: 1px solid pink; */
 }
 .story-text {
-  height: 300px;
+  /* height: 300px; */
   width: 50%;
   border: 1px solid pink;
 }
+
+.story-text p {
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: left;
+}
+
 .story-video {
-  height: 300px;
+  /* height: 300px; */
   width: 50%;
   border: 1px solid pink;
 }
@@ -98,6 +128,14 @@ header {
 /* TV DRAMA ELEMENTS */
 .tv-drama {
   border: 1px solid blue;
+}
+
+.tv-drama-text {
+  font-size: 18px;
+  width: 50%;
+  border: 1px solid pink;
+  line-height: 1.5;
+  text-align: left;
 }
 
 /* story text + video texts */
@@ -161,31 +199,23 @@ header {
 
 .stamps-content {
   border: 1px solid blue;
-  /* width: 100%; */
-  /* height: 400px; */
+  margin: 0 auto;
 }
 
-.stamps-columns {
-  display: flex;
-  justify-content: space-between;
-}
-
-.stamps-information {
-  width: 30%;
-  height: 215px;
-  border: 1px solid pink;
+.stamps-image img {
+  max-width: 60%;
 }
 
 /* FOOTER ELEMENTS */
 footer {
   border: 1px solid blue;
-  height: 350px;
+  /* height: 350px; */
 }
 
 /* .newsletter-sign-up */
 
 .newsletter-form {
-  width: 220px;
+  width: 300px;
   height: 40px;
   margin: 0 auto;
   border: 1px solid pink;
