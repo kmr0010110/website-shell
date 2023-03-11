@@ -10,9 +10,9 @@
   </head>
   <body>
     <header>
-      <div class="fixed-width header-links">
+      <div class="header-links">
         <div class="home-button">
-          <a href="#">HOME</a>
+          <a href="#">[img] HOME</a>
         </div>
         <div class="logo">
           <img
@@ -21,6 +21,7 @@
             width="300px"
           />
         </div>
+        <div class="pseudo-element">[pseudo-element]</div>
       </div>
     </header>
     <!--end of header-->
@@ -37,50 +38,58 @@
         </div>
       </div>
       <!--end of navigation buttons-->
-      <div class="about">
-        <div class="about-overview">
-          <h2>Australia's Biggest Waiting Room</h2>
-          <p>
-            The Royal Flying Doctor Service is one of the largest and most
-            comprehensive aeromedical organisations globally, providing
-            extensive primary health care and 24-hour emergency service to
-            people who live, work, and travel across the 7.69 million square
-            kilometers of Australia.
-          </p>
-        </div>
-        <!--end of about overview-->
-        <div class="fixed-width about-video">[Overview video here]</div>
-        <!--end of about video-->
-        <div class="learn-text"><h2>Learn about those we serve</h2></div>
-        <div class="fixed-width story-content">
-          <div class="story-text">
+      <div class="main-content">
+        <div class="about">
+          <div class="about-overview">
+            <h1>Australia's Biggest Waiting Room</h1>
             <p>
-              Jed needed emergency surgery after a painful accident breaking his
-              ankle into shackles. Hear how he would have endured an
-              excruciating 9-hour drive from one of Australia's remote areas
-              without the RFDS.
+              The Royal Flying Doctor Service is one of the largest and most
+              comprehensive aeromedical organisations globally, providing
+              extensive primary health care and 24-hour emergency service to
+              people who live, work, and travel across the 7.69 million square
+              kilometers of Australia.
             </p>
           </div>
-          <div class="story-video">[Story video here]</div>
-        </div>
-        <div class="fixed-width story-content">
-          <div class="story-text">
-            <p>
-              As a passionate Queenslander, hear why Dawn decided to leave a
-              gift to the Royal Flying Doctor Service.
-            </p>
-          </div>
-          <div class="story-video">[Story video here]</div>
-        </div>
+          <!--end of about overview-->
+          <div class="fixed-width about-video">[Overview video here]</div>
+          <!--end of about video-->
 
-        <div class="learn-button">
-          <a href="#">LEARN MORE</a>
+          <h2>Learn about those we serve</h2>
+
+          <div class="fixed-width story-content">
+            <div class="story-text">
+              <p>
+                Jed needed emergency surgery after a painful accident breaking
+                his ankle into shackles. Hear how he would have endured an
+                excruciating 9-hour drive from one of Australia's remote areas
+                without the RFDS.
+              </p>
+            </div>
+            <div class="story-video">
+              <img src="src/images/jed.2fee.png" />
+            </div>
+          </div>
+
+          <div class="fixed-width story-content">
+            <div class="story-text">
+              <p>
+                As a passionate Queenslander, hear why Dawn decided to leave a
+                gift to the Royal Flying Doctor Service.
+              </p>
+            </div>
+            <div class="story-video">
+              <img src="src/images/QLD.Dawn.png" />
+            </div>
+          </div>
+
+          <div class="learn-button">
+            <a href="#">LEARN MORE</a>
+          </div>
         </div>
-      </div>
-      <!--end of about-->
-      <div class="tv-drama">
-        <h2>New RFDS TV Drama</h2>
-        <div class="fixed-width">
+        <!--end of about-->
+        <div class="tv-drama">
+          <h2>New RFDS TV Drama</h2>
+          <!-- <div class="fixed-width"> -->
           <div class="fixed-width story-content">
             <div class="tv-drama-text">
               <p>
@@ -93,61 +102,65 @@
                 Britain, the Netherlands and Sweden.
               </p>
             </div>
-            <div class="story-video">[Story video here]</div>
+            <div class="story-video">
+              <img src="src/images/tv_drama.png" />
+            </div>
+            <!-- </div> -->
+          </div>
+          <!--end of fixed-width-->
+          <div class="about-show-button">
+            <a href="#">ABOUT THE SHOW</a>
           </div>
         </div>
-        <!--end of fixed-width-->
-        <div class="about-show-button">
-          <a href="#">ABOUT THE SHOW</a>
-        </div>
-      </div>
-      <!--end of tv drama-->
-      <div class="flight-maps">
-        <h2>Live Flight Map of our planes</h2>
-        <p>
-          Have a look at the map showing the fleet of RFDS planes that are
-          currently in the air, providing vital services across Australia
-        </p>
-        <div class="fixed-width">
-          <div class="interactive-map">[Interactive flight map here]</div>
-        </div>
-        <!--end of fixed width-->
-      </div>
-      <!--end of flight maps-->
-      <div class="about-navigations">
-        <div class="fixed-width nav-columns">
-          <div class="nav-information">
-            [Image]
-            <p>
-              As a not-for-profit aeromedical organisation, we rely on your help
-              and generosity to deliver essential health and emergency medical
-              services.
-            </p>
-            <a href="#">DONATE</a>
+        <!--end of tv drama-->
+        <div class="flight-maps">
+          <h2>Live Flight Map of our planes</h2>
+          <p>
+            Have a look at the map showing the fleet of RFDS planes that are
+            currently in the air, providing vital services across Australia
+          </p>
+          <!-- <div class="fixed-width"> -->
+          <div class="fixed-width interactive-map">
+            [Interactive flight map here]
           </div>
-          <div class="nav-information">
-            [Image]
-            <p>
-              Every purchase supports the RFDS directly to deliver life-saving
-              services to those in need anywhere in Australia.
-            </p>
-            <a href="#">DOC SHOP</a>
-          </div>
-          <div class="nav-information">
-            [Image]
-            <p>
-              Want to get a deeper insight into the challenges that exist for
-              those that live, work and travel in the bush?
-            </p>
-            <a href="#">PODCAST</a>
-          </div>
+          <!-- </div> -->
+          <!--end of fixed width-->
         </div>
-        <!--end of fixed width-->
-      </div>
-      <!--end of about navigations-->
-      <div class="staff-stories">
-        <h2>Our Staff Stories</h2>
-        <div class="fixed-width">
+        <!--end of flight maps-->
+        <div class="about-navigations">
+          <div class="nav-columns">
+            <div class="nav-information">
+              [Image]
+              <p>
+                As a not-for-profit aeromedical organisation, we rely on your
+                help and generosity to deliver essential health and emergency
+                medical services.
+              </p>
+              <a href="#" class="nav-button">DONATE</a>
+            </div>
+            <div class="nav-information">
+              [Image]
+              <p>
+                Every purchase supports the RFDS directly to deliver life-saving
+                services to those in need anywhere in Australia.
+              </p>
+              <a href="#" class="nav-button">DOC SHOP</a>
+            </div>
+            <div class="nav-information">
+              [Image]
+              <p>
+                Want to get a deeper insight into the challenges that exist for
+                those that live, work and travel in the bush?
+              </p>
+              <a href="#" class="nav-button">PODCAST</a>
+            </div>
+          </div>
+          <!--end of fixed width-->
+        </div>
+        <!--end of about navigations-->
+        <div class="staff-stories">
+          <h2>Our Staff Stories</h2>
+          <!-- <div class="fixed-width"> -->
           <div class="fixed-width story-content">
             <div class="story-text">
               <p>
@@ -155,7 +168,9 @@
                 world of the Flying Doctor at the Broken Hill Base.
               </p>
             </div>
-            <div class="story-video">[Story video here]</div>
+            <div class="story-video">
+              <img src="src/images/RFDS_Flight_Nurse.png" />
+            </div>
           </div>
           <div class="fixed-width story-content">
             <div class="story-text">
@@ -167,88 +182,98 @@
                 and remain on high alert.
               </p>
             </div>
-            <div class="story-video">[Story video here]</div>
+            <div class="story-video">
+              <img src="src/images/covid_response.png" />
+            </div>
           </div>
+          <!-- </div> -->
+          <!--end of fixed width-->
         </div>
-        <!--end of fixed width-->
-      </div>
-      <!--end of staff stories-->
-      <div class="working-for-rfds">
-        <h2>Interested in working for the Flying Doctor?</h2>
-        <p>
-          Working with the Flying Doctor gives you the opportunity to make a
-          real impact on the lives of rural Australians and truly help others.
-          You'll work every day with people who are passionate about our purpose
-          and proud of their contribution to our iconic organisation.
-        </p>
+        <!--end of staff stories-->
+        <div class="working-for-rfds">
+          <h2>Interested in working for the Flying Doctor?</h2>
+          <p>
+            Working with the Flying Doctor gives you the opportunity to make a
+            real impact on the lives of rural Australians and truly help others.
+            You'll work every day with people who are passionate about our
+            purpose and proud of their contribution to our iconic organisation.
+          </p>
+        </div>
         <div class="join-team-button">
           <a href="#">JOIN OUR TEAM</a>
         </div>
-      </div>
-      <!--end of working for rfds-->
-      <div class="stamps-content">
-        <div class="stamps-image">
-          <img src="src/images/Footer-Stamps.png" />
-        </div>
+        <!--end of working for rfds-->
+        <div class="stamps-content">
+          <div class="stamps-image">
+            <img src="src/images/Footer-Stamps copy.png" />
+          </div>
 
-        <!--end of stamps-->
+          <!--end of stamps-->
+        </div>
+        <!-- </div> -->
+        <!--end of page content-->
+        <footer>
+          <div class="fixed-width">
+            <div class="newsletter-sign-up">
+              <h3>Stay up to date with the Royal Flying Doctor Service</h3>
+              <p>Sign up to our newsletter here:</p>
+              <div class="newsletter-form">
+                [newsletter sign up form/button]
+              </div>
+            </div>
+            <!--end of newsletter signup-->
+            <div class="social-media">
+              <p>Find us on social media</p>
+              <div class="social-media-links">
+                <a href="#">FB</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">YouTube</a>
+              </div>
+            </div>
+            <!--end of social media-->
+            <div class="footer-text">
+              <p>
+                The Royal Flying Doctor Service is committed to eliminating all
+                forms of discrimination in the provision of healthcare. We
+                embrace diversity and welcome all people irrespective of faith,
+                ethnicity, sexual orientation or gender identity.
+                <br />
+                <br />
+                The Royal Flying Doctor Service acknowledges and pays respect to
+                the past and present Traditional Custodians and Elders of this
+                nation
+              </p>
+            </div>
+          </div>
+          <div class="footer-bottom-text">
+            <div class="footer-navigation">
+              <div class="footer-links">
+                <a href="#">The Flying Doctor Podcast</a>
+                <a href="#">Trusted Health Advice</a>
+                <a href="#">DocShop</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Legal</a>
+              </div>
+              <p class="footer-abn">ABN: 74 438 059 643</p>
+            </div>
+
+            <div class="footer-credits">
+              <p>
+                Charity donations of $2 or more to the Royal Flying Doctor
+                Service may be tax deductible in Australia
+                <br />
+                <br />
+                Website managed by: The Interaction Consortium
+              </p>
+            </div>
+          </div>
+
+          <!--end of fixed width-->
+        </footer>
+        <!--end of footer-->
       </div>
     </div>
-    <!--end of page content-->
-    <footer>
-      <div class="fixed-width">
-        <div class="newsletter-sign-up">
-          <h3>Stay up to date with the Royal Flying Doctor Service</h3>
-          <p>Sign up to our newsletter here:</p>
-          <div class="newsletter-form">[newsletter sign up form/button]</div>
-        </div>
-        <!--end of newsletter signup-->
-        <div class="social-media">
-          <p>Find us on social media</p>
-          <div class="social-media-links">
-            <a href="#">FB</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">YouTube</a>
-          </div>
-        </div>
-        <!--end of social media-->
-        <div class="footer-text">
-          <p>
-            The Royal Flying Doctor Service is committed to eliminating all
-            forms of discrimination in the provision of healthcare. We embrace
-            diversity and welcome all people irrespective of faith, ethnicity,
-            sexual orientation or gender identity.
-            <br />
-            <br />
-            The Royal Flying Doctor Service acknowledges and pays respect to the
-            past and present Traditional Custodians and Elders of this nation
-          </p>
-        </div>
-        <div class="footer-bottom-text">
-          <div class="footer-navigation">
-            <a href="#">The Flying Doctor Podcast</a>
-            <a href="#">Trusted Health Advice</a>
-            <a href="#">DocShop</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Legal</a>
-            <p>ABN: 74 438 059 643</p>
-          </div>
-
-          <div class="footer-credits">
-            <p>
-              Charity donations of $2 or more to the Royal Flying Doctor Service
-              may be tax deductible in Australia
-              <br />
-              <br />
-              Website managed by: The Interaction Consortium
-            </p>
-          </div>
-        </div>
-      </div>
-      <!--end of fixed width-->
-    </footer>
-    <!--end of footer-->
   </body>
 </html>

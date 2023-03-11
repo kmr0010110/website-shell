@@ -4,6 +4,23 @@ body {
     sans-serif;
   /* font-family: Arial, Helvetica, sans-serif; */
   color: #444444;
+  font-size: 19px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  color: #444444;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.main-content {
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .fixed-width {
@@ -21,41 +38,56 @@ a {
 
 /* HEADER ELEMENTS */
 header {
-  border: 1px solid blue;
-  background-image: url(../src/images/Copy_of_The_Biggest_Waiting_Room_no_title.af49.png);
+  /* border: 1px solid blue; */
+
+  background-image: url(../src/images/Header_The_Biggest_Waiting_Room.png);
   height: 400px;
   /* width: 100%; */
   background-size: cover;
   padding: 20px;
-  /* background-position: center; */
+  background-position: center;
 }
 .header-links {
   display: flex;
-  /* gap: 30px; */
+  align-items: center;
+  /* align-content: center; */
 }
 
 .home-button {
-  border: 1px solid pink;
-  width: 160px;
+  margin: 0;
+  padding: 0 25px;
   height: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.home-button a {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .logo {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   width: 300px;
-  height: 95px;
   display: block;
   margin: 0 auto;
 }
 
+/*unsure if display: block is necessary? */
+
 .logo-image {
-  height: 95px;
+  /* height: 95px; */
   display: block;
+}
+
+.pseudo-element {
+  color: transparent;
 }
 
 /* NAV BUTTON ELEMENTS */
 .navigation-buttons {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* max-width: 80%; */
   display: flex;
   justify-content: space-evenly;
@@ -63,23 +95,29 @@ header {
 /* NEED TO CHANGE WITH FLEX! */
 
 .nav-button {
-  border: 1px solid pink;
-  width: 160px;
-  height: 50px;
+  border: 1px solid #0099cc;
+  /* width: 160px;
+  height: 50px; */
+  padding: 15px 40px 15px 40px;
+  border-radius: 100px;
 }
 
 /* ABOUT ELEMENTS */
 .about {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .about-overview {
   border: 1px solid pink;
+  padding-top: 15px;
+  padding-left: 170px;
+  padding-right: 170px;
   /* height: 200px; */
+  margin-top: 80px;
 }
 
-.about-overview h2 {
-  font-size: 40px;
+h1 {
+  font-size: 41px;
 }
 
 .about-overview p {
@@ -90,14 +128,17 @@ header {
 .about-video {
   border: 1px solid pink;
   height: 450px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
-
-/* .learn-text ??? */
 
 .story-content {
   display: flex;
   justify-content: space-between;
-  height: 500px;
+  height: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /* height: 500px; */
   /* border: 1px solid pink; */
 }
 .story-text {
@@ -110,12 +151,17 @@ header {
   font-size: 25px;
   line-height: 1.5;
   text-align: left;
+  padding: 60px;
 }
 
 .story-video {
   /* height: 300px; */
   width: 50%;
   border: 1px solid pink;
+}
+
+.story-video img {
+  width: 100%;
 }
 
 .learn-button {
@@ -127,7 +173,7 @@ header {
 
 /* TV DRAMA ELEMENTS */
 .tv-drama {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .tv-drama-text {
@@ -136,6 +182,10 @@ header {
   border: 1px solid pink;
   line-height: 1.5;
   text-align: left;
+}
+
+.tv-drama-text p {
+  padding: 60px;
 }
 
 /* story text + video texts */
@@ -149,17 +199,19 @@ header {
 
 /* FLIGHT MAP ELEMENTS */
 .flight-maps {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .interactive-map {
   border: 1px solid pink;
   height: 400px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 /* ABOUT NAVIGATION - DETAILS ELEMENTS */
 .about-navigations {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* width: 100%; */
   /* height: 400px; */
 }
@@ -167,6 +219,7 @@ header {
 .nav-columns {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 .nav-information {
@@ -175,17 +228,25 @@ header {
   border: 1px solid pink;
 }
 
+.nav-information a {
+  display: inline-block;
+}
+
 /* STAFF STORIES ELEMENTS */
 .staff-stories {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 /* story text + video texts */
 
 /* WORK FOR RFDS ELEMENTS */
 .working-for-rfds {
-  border: 1px solid blue;
-  height: 200px;
+  /* border: 1px solid blue; */
+  /* height: 200px; */
+  padding-top: 20px;
+  padding-left: 170px;
+  padding-right: 170px;
+  margin-bottom: 80px;
 }
 
 .join-team-button {
@@ -198,8 +259,8 @@ header {
 /* CHARITY STAMPS ELEMENTS */
 
 .stamps-content {
-  border: 1px solid blue;
-  margin: 0 auto;
+  /* border: 1px solid blue; */
+  margin: 80px 0 80px 0;
 }
 
 .stamps-image img {
@@ -208,11 +269,17 @@ header {
 
 /* FOOTER ELEMENTS */
 footer {
-  border: 1px solid blue;
+  font-size: 17px;
+  /* border: 1px solid blue; */
   /* height: 350px; */
 }
 
 /* .newsletter-sign-up */
+
+footer h3 {
+  font-size: 25px;
+  margin: 30px 0 0 0;
+}
 
 .newsletter-form {
   width: 300px;
@@ -225,8 +292,35 @@ footer {
 
 /* .social-media-links */
 
-/* .footer-text */
+.footer-text {
+  margin: 30px 0 0 0;
+}
 
-/* .footer-bottom-text */
+.footer-bottom-text {
+  margin-top: 50px;
+}
 
-/* .footer-credits */
+.footer-navigation a {
+  /* text-align: left; */
+}
+
+.footer-links {
+  float: left;
+}
+
+.footer-navigation p {
+  display: inline;
+  text-align: right;
+}
+
+.footer-abn {
+  float: right;
+  margin-right: 30px;
+}
+
+.footer-credits {
+  /* margin-top: 40px;
+  margin-bottom: 40px; */
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
