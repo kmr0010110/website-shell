@@ -2,9 +2,11 @@ body {
   text-align: center;
   font-family: "museo-sans", "Helvetica Neue", Arial, Helvetica, Geneva,
     sans-serif;
-  /* font-family: Arial, Helvetica, sans-serif; */
+
   color: #444444;
   font-size: 19px;
+  padding: 0;
+  margin: 0;
 }
 
 h1,
@@ -87,21 +89,53 @@ header {
 
 /* NAV BUTTON ELEMENTS */
 .navigation-buttons {
-  /* border: 1px solid blue; */
-  /* max-width: 80%; */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  /* align-content: center; */
+  position: relative;
+  top: -25px;
+  width: 80%;
+  margin: 0 auto;
+
+  /* width: 1000px;
+  text-align: center; */
 }
-/* NEED TO CHANGE WITH FLEX! */
+/* NEED TO CHANGE WITH FLEX!? */
 
 .nav-button {
   border: 1px solid #0099cc;
-  /* width: 160px;
-  height: 50px; */
   padding: 15px 40px 15px 40px;
   border-radius: 100px;
 }
 
+.nav-button.orange-btn,
+.nav-button.orange-btn a {
+  color: white;
+  background-color: #ff6633;
+  border-color: #ff6633;
+  font-size: 15px;
+  padding: 15px 60px 15px 60px;
+  /* width: 33%; */
+  /* width: 20%; */
+}
+
+.nav-button.blue-btn-wide,
+.nav-button.nav-button.blue-btn-wide a {
+  color: white;
+  background-color: #0099cc;
+  border-color: #0099cc;
+  font-size: 15px;
+  padding: 15px 60px 15px 60px;
+}
+
+.nav-button.white-btn,
+.nav-button.white-btn a {
+  background-color: white;
+  border-color: #ff6633;
+  font-size: 15px;
+  padding: 15px 60px 15px 60px;
+}
 /* ABOUT ELEMENTS */
 
 /* .about {
@@ -145,7 +179,7 @@ h1 {
 .story-text {
   /* height: 300px; */
   width: 50%;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 .story-text p {
@@ -158,11 +192,12 @@ h1 {
 .story-video {
   /* height: 300px; */
   width: 50%;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 .story-video img {
   width: 100%;
+  display: block;
 }
 
 .learn-button {
@@ -181,7 +216,7 @@ h1 {
 .tv-drama-text {
   font-size: 18px;
   width: 50%;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   line-height: 1.5;
   text-align: left;
 }
@@ -265,7 +300,6 @@ h1 {
 /* CHARITY STAMPS ELEMENTS */
 
 .stamps-content {
-  /* border: 1px solid blue; */
   margin: 80px 0 80px 0;
 }
 
@@ -276,8 +310,10 @@ h1 {
 /* FOOTER ELEMENTS */
 footer {
   font-size: 17px;
-  /* border: 1px solid blue; */
-  /* height: 350px; */
+  color: #bbbbbb;
+  background-color: #333333;
+  margin: 0;
+  padding: 0;
 }
 
 /* .newsletter-sign-up */
@@ -285,6 +321,11 @@ footer {
 footer h3 {
   font-size: 25px;
   margin: 30px 0 0 0;
+  color: white;
+}
+
+.newsletter-sign-up p {
+  margin-top: 0;
 }
 
 .newsletter-form {
@@ -296,7 +337,9 @@ footer h3 {
 
 /* .social-media */
 
-/* .social-media-links */
+.social-media-links a {
+  color: white;
+}
 
 .footer-text {
   margin: 30px 0 0 0;
@@ -304,24 +347,25 @@ footer h3 {
 
 .footer-bottom-text {
   margin-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
-
-/* .footer-navigation a {
-  text-align: left;
-} */
 
 .footer-links {
   float: left;
+  color: #bbbbbb;
+}
+
+.footer-links a {
+  color: #bbbbbb;
+  /* padding-right: 10px; */
+  margin-right: 15px;
+  font-size: 15px;
 }
 
 .footer-navigation p {
-  display: inline;
   text-align: right;
-}
-
-.footer-abn {
-  float: right;
-  margin-right: 30px;
+  font-size: 15px;
 }
 
 .footer-credits {
@@ -329,4 +373,5 @@ footer h3 {
   margin-bottom: 40px; */
   padding-top: 40px;
   padding-bottom: 40px;
+  font-size: 13px;
 }
