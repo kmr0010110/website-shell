@@ -9,40 +9,41 @@
     <link rel="stylesheet" href="https://use.typekit.net/adi4shh.css" />
   </head>
   <body>
-    <header>
-      <div class="header-links">
-        <div class="home-button">
-          <a href="#">[img] HOME</a>
+    <div class="main-div-container">
+      <header>
+        <div class="header-links">
+          <div class="home-button">
+            <a href="#">[img] HOME</a>
+          </div>
+          <div class="logo">
+            <img
+              src="src/images/Logo-RFDS-white.png"
+              class="logo-image"
+              width="300px"
+            />
+          </div>
+          <div class="pseudo-element">[pseudo-element]</div>
         </div>
-        <div class="logo">
-          <img
-            src="src/images/Logo-RFDS-white.png"
-            class="logo-image"
-            width="300px"
-          />
-        </div>
-        <div class="pseudo-element">[pseudo-element]</div>
-      </div>
-    </header>
-    <!--end of header-->
+      </header>
+      <!--end of header-->
 
-    <div class="page-content">
-      <div class="navigation-buttons">
-        <div class="nav-button orange-btn">
-          <a href="#">DONATE</a>
-        </div>
-
-        <div class="nav-button blue-btn-wide">
-          <a href="#">DOC SHOP</a>
-        </div>
-
-        <div class="nav-button white-btn">
-          <a href="#">PODCAST</a>
-        </div>
-      </div>
-      <!--end of navigation buttons-->
-
+      <!-- <div class="page-content"> -->
       <div class="main-content">
+        <div class="navigation-buttons">
+          <div class="nav-button orange-btn button-container">
+            <a href="#">DONATE</a>
+          </div>
+
+          <div class="nav-button blue-btn-wide button-container">
+            <a href="#">DOC SHOP</a>
+          </div>
+
+          <div class="nav-button white-btn button-container">
+            <a href="#">PODCAST</a>
+          </div>
+        </div>
+        <!--end of navigation buttons-->
+
         <div class="about">
           <div class="about-overview">
             <h1>Australia's Biggest Waiting Room</h1>
@@ -56,12 +57,14 @@
           </div>
           <!--end of about overview-->
 
-          <div class="fixed-width about-video">[Overview video here]</div>
+          <div class="fixed-width about-video">
+            [Overview video placeholder]
+          </div>
           <!--end of about video-->
 
           <h2>Learn about those we serve</h2>
 
-          <div class="fixed-width story-content">
+          <div class="story-content">
             <div class="story-text">
               <p>
                 Jed needed emergency surgery after a painful accident breaking
@@ -75,7 +78,7 @@
             </div>
           </div>
 
-          <div class="fixed-width story-content">
+          <div class="story-content">
             <div class="story-text">
               <p>
                 As a passionate Queenslander, hear why Dawn decided to leave a
@@ -88,7 +91,7 @@
           </div>
 
           <div class="learn-button">
-            <a href="#">LEARN MORE</a>
+            <a href="#" class="nav-button">LEARN MORE</a>
           </div>
         </div>
         <!--end of about-->
@@ -96,7 +99,7 @@
         <div class="tv-drama">
           <h2>New RFDS TV Drama</h2>
           <!-- <div class="fixed-width"> -->
-          <div class="fixed-width story-content">
+          <div class="story-content">
             <div class="tv-drama-text">
               <p>
                 Five years ago the journey began for a new Australian TV drama
@@ -114,8 +117,8 @@
             <!-- </div> -->
           </div>
           <!--end of fixed-width-->
-          <div class="about-show-button">
-            <a href="#">ABOUT THE SHOW</a>
+          <div class="about-show">
+            <a href="#" class="nav-button">ABOUT THE SHOW</a>
           </div>
         </div>
         <!--end of tv drama-->
@@ -128,6 +131,7 @@
           </p>
           <!-- <div class="fixed-width"> -->
           <div class="fixed-width interactive-map">
+            [map placeholder]
             <!-- <img src="src/images/flight_map.png" alt="" /> -->
           </div>
           <!-- </div> -->
@@ -138,7 +142,7 @@
         <div class="about-navigations">
           <div class="nav-columns">
             <div class="nav-information">
-              [Image]
+              [image placeholder]
               <p>
                 As a not-for-profit aeromedical organisation, we rely on your
                 help and generosity to deliver essential health and emergency
@@ -147,7 +151,7 @@
               <a href="#" class="nav-button">DONATE</a>
             </div>
             <div class="nav-information">
-              [Image]
+              [image placeholder]
               <p>
                 Every purchase supports the RFDS directly to deliver life-saving
                 services to those in need anywhere in Australia.
@@ -155,7 +159,7 @@
               <a href="#" class="nav-button">DOC SHOP</a>
             </div>
             <div class="nav-information">
-              [Image]
+              [image placeholder]
               <p>
                 Want to get a deeper insight into the challenges that exist for
                 those that live, work and travel in the bush?
@@ -169,7 +173,7 @@
         <div class="staff-stories">
           <h2>Our Staff Stories</h2>
           <!-- <div class="fixed-width"> -->
-          <div class="fixed-width story-content">
+          <div class="story-content">
             <div class="story-text">
               <p>
                 RFDS Flight Nurse Keryn Bolte takes us on a journey inside the
@@ -180,7 +184,7 @@
               <img src="src/images/RFDS_Flight_Nurse.png" />
             </div>
           </div>
-          <div class="fixed-width story-content">
+          <div class="story-content">
             <div class="story-text">
               <p>
                 Over the last few months, the global COVID-19 pandemic has
@@ -208,8 +212,8 @@
             purpose and proud of their contribution to our iconic organisation.
           </p>
         </div>
-        <div class="join-team-button">
-          <a href="#">JOIN OUR TEAM</a>
+        <div class="join-team">
+          <a href="#" class="nav-button">JOIN OUR TEAM</a>
         </div>
         <!--end of working for rfds-->
 
@@ -227,7 +231,7 @@
           <div class="newsletter-sign-up">
             <h3>Stay up to date with the Royal Flying Doctor Service</h3>
             <p>Sign up to our newsletter here:</p>
-            <div class="newsletter-form">[newsletter sign up form/button]</div>
+            <div class="newsletter-form">[form/button placeholder]</div>
           </div>
           <!--end of newsletter signup-->
 
@@ -282,7 +286,9 @@
           </div>
         </div>
       </footer>
-      <!--end of footer-->
     </div>
+    <!--end of footer-->
+    <!-- </div> -->
+    <!-- do i need this page-content div if I have the main content one? -->
   </body>
 </html>
