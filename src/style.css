@@ -1,8 +1,9 @@
+@charset "UTF-8";
+
 body {
   text-align: center;
   font-family: "museo-sans", "Helvetica Neue", Arial, Helvetica, Geneva,
     sans-serif;
-
   color: #444444;
   font-size: 19px;
   padding: 0;
@@ -31,10 +32,7 @@ p {
 
 .fixed-width {
   width: 1200px;
-  /* border: 1px solid black; */
   margin: 0 auto;
-  /* display: flex; */
-  /* height: 200px; */
 }
 
 a {
@@ -44,10 +42,9 @@ a {
 
 /* HEADER ELEMENTS */
 header {
-  /* border: 1px solid blue; */
   background-image: url(../src/images/Header_The_Biggest_Waiting_Room.png);
   height: 400px;
-  /* width: 100%; */
+  width: 100%;
   background-size: cover;
   padding: 20px;
   background-position: center;
@@ -95,15 +92,11 @@ header {
 .navigation-buttons {
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
-  /* align-content: center; */
+
   position: relative;
   top: -25px;
   width: 80%;
   margin: 0 auto;
-
-  /* width: 1000px;
-  text-align: center; */
 }
 /* NEED TO CHANGE WITH FLEX!? */
 
@@ -158,11 +151,9 @@ header {
 } */
 
 .about-overview {
-  /* border: 1px solid pink; */
   padding-top: 15px;
   padding-left: 170px;
   padding-right: 170px;
-  /* height: 200px; */
   margin-top: 50px;
 }
 
@@ -188,17 +179,12 @@ h1 {
   height: 100%;
   margin-top: 80px;
   margin-bottom: 80px;
-  /* position: relative; */
-  /* height: 500px; */
-  /* border: 1px solid pink; */
 }
 .story-text {
-  /* height: 300px; */
   width: 50%;
   box-sizing: border-box;
   background-color: #f8f4f0;
   width: 50%;
-  /* border: 1px solid pink; */
 }
 
 .story-text p {
@@ -210,11 +196,8 @@ h1 {
 }
 
 .story-video {
-  /* height: 300px; */
   width: 50%;
   object-fit: cover;
-  /* position: relative; */
-  /* border: 1px solid pink; */
 }
 
 .story-video img {
@@ -242,9 +225,7 @@ h1 {
 } */
 
 .tv-drama-text {
-  font-size: 18px;
   width: 50%;
-  /* border: 1px solid pink; */
   line-height: 1.5;
   text-align: left;
   background-color: #f8f4f0;
@@ -252,6 +233,7 @@ h1 {
 
 .tv-drama-text p {
   padding: 60px;
+  font-size: 18px;
 }
 
 /* story text + video texts */
@@ -307,8 +289,6 @@ h1 {
 /* STAFF STORIES ELEMENTS / WORKING FOR RFDS*/
 
 .working-for-rfds {
-  /* border: 1px solid blue; */
-  /* height: 200px; */
   padding-top: 20px;
   padding-left: 170px;
   padding-right: 170px;

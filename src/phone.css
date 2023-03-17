@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 700px) {
+  .fixed-width {
+    width: 100%;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  .home-button {
+    margin-left: 12px;
+    padding: 0 20px;
+  }
+
+  .home-button a {
+    font-size: 14px;
+  }
+
+  .logo {
+    margin-top: 15px;
+  }
+
+  .navigation-buttons {
+    flex-direction: column;
+    top: 0;
+    margin-top: 10px;
+    width: 100%;
+    /* margin: 0; */
+    /* padding: 0; */
+  }
+
+  .nav-button.orange-btn,
+  .nav-button.blue-btn-wide {
+    margin-bottom: 5px;
+  }
+
+  .main-content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .about-overview {
+    padding: 0;
+  }
+
+  .about-overview h1 {
+    font-size: 38px;
+  }
+
+  .about-overview p {
+    font-size: 21px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .about-video {
+    margin-top: 0;
+    margin-bottom: 40px;
+    height: 300px;
+  }
+
+  h2 {
+    font-size: 26px;
+    margin: 0;
+  }
+
+  .story-content {
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .story-text {
+    width: 100%;
+  }
+
+  .story-text p {
+    font-size: 20px;
+  }
+
+  .story-video {
+    width: 100%;
+    /* max-height: 300px; */
+    min-height: 100px;
+  }
+
+  .story-video img {
+    max-height: 400px;
+  }
+
+  .learn-button {
+    margin-bottom: 50px;
+    padding-top: 10px;
+  }
+
+  .tv-drama-text {
+    width: 100%;
+  }
+
+  .tv-drama-text p {
+    padding: 10%;
+  }
+
+  .about-show {
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+
+  .flight-maps p {
+    margin-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .interactive-map {
+    margin-top: 0;
+    margin-bottom: 40px;
+    height: 300px;
+  }
+
+  .nav-columns {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .nav-information {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  /* .staff-stories h2 {
+    margin: 0;
+  } */
+
+  .working-for-rfds {
+    padding: 0;
+    margin-bottom: 40px;
+  }
+
+  .working-for-rfds p {
+    margin-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .stamps-content {
+    margin: 40px 0 40px 0;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+
+  .newsletter-sign-up p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .newsletter-form {
+    width: 215px;
+    height: 20px;
+  }
+
+  .social-media p {
+    margin-bottom: 5px;
+  }
+
+  .footer-text {
+    display: none;
+  }
+
+  /* .footer-text p {
+    font-size: 12px;
+  } */
+
+  /* .footer-links {
+    font-size: 12px;
+  } */
+
+  .footer-bottom-text {
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+  }
+
+  .footer-navigation p {
+    font-size: 12px;
+    line-height: 2;
+  }
+
+  .footer-navigation a {
+    font-size: 12px;
+  }
+
+  .footer-credits {
+    display: none;
+  }
+} /* do not delete - this is a closing bracket for media query */
